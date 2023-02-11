@@ -58,6 +58,7 @@ div,li {
   background: center / cover no-repeat url("../images/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
+  align-items: center;
 }
 .key h1{
   font-size: 2.5rem;
@@ -83,6 +84,9 @@ div,li {
   width: 20%;
   border-radius: 50%;
 }
+.rmded_image{
+  width: 55%;
+}
 
 .cafe {
     background-color: yellowgreen;
@@ -91,35 +95,36 @@ div,li {
 .menu_cafe {
     background-color: white;
     display: flex;
-    flex-direction: column;
-    margin: 5%;
-    
+    justify-content: center;
+    margin: 20px;
 }
 
 .cafe_s1 {
-    display: flex;
-    flex-direction: row;
+  width: 49%;
 }
 .sample_c1{
-    width: calc(100% - 280px - 10px);
-    width: 49%; 
-    height:auto; 
-    margin: 10px;
+  width: 80%;
+  margin: 20px;
 }
 
-.sample_c2{
-    width: calc(100% - 280px - 10px);
-    width: 49%; 
-    height:auto; 
-    margin: 10px;
-    
+.sample_c2{ 
+  width: 80%;
+  margin: 20px;
+}
+
+.google_map{
+  width: 100%;
 }
 
 .foot{
-    background-color: #251e19;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 75px;
+  background-color: #251e19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .foot_nav{
